@@ -23,7 +23,7 @@ void IRAM_ATTR Control()
   Ent[0] = error;
   Sal[1] = Sal[0];
   Sal[0] = Ent[0] * CE[0] + Ent[1] * CE[1] + Sal[1] * CS[1] ;
-  float duty = Sal[0];
+  float duty = Sal[0]*10;
   if (duty < 0)
   {
     duty = 0;
