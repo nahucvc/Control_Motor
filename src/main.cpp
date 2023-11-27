@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
 // declaracion de varianles globales
-#define ADC A0
-#define PWM 10
+#define ADC 1
+#define PWM 37
 
 uint32_t ValorADC = 0;
 double CE[2] = {0.366786691562949	,-0.363118824647320};
